@@ -23,6 +23,7 @@ Set `IBM_QUANTUM_API_KEY` in `.env` only if you want to run examples on real IBM
 |---|---------|-------------|---------|-----|
 | 01 | [First Qubit](examples/01-first-qubit/) | Single-qubit circuit with X and H gates | IBM Quantum hardware | `uv run examples/01-first-qubit/main.py` |
 | 02 | [BB84](examples/02-bb84/) | BB84 Quantum Key Distribution protocol | AerSimulator + IBM Quantum hardware | `uv run examples/02-bb84/main.py` |
+| 03 | [Single Qubit Interference](examples/03-single-qubit-interference/) | Relative phase made visible through H-Z-H interference | AerSimulator | `uv run examples/03-single-qubit-interference/main.py` |
 
 ## Adding a new example
 
