@@ -1,7 +1,7 @@
 [project]
-name = "firstqubit"
+name = "practical-guide-quantum-computing"
 version = "0.1.0"
-description = "Add your description here"
+description = "Code examples from A Practical Guide to Quantum Computing"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
