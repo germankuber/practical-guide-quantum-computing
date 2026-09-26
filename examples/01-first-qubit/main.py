@@ -7,7 +7,7 @@ from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
 from qiskit_ibm_runtime import IBMBackend, QiskitRuntimeService, SamplerV2 as Sampler
 
 SHOTS = 100
-TOKEN_ENV_VAR = "IBM_QUANTUM_TOKEN"
+TOKEN_ENV_VAR = "IBM_QUANTUM_API_KEY"
 
 
 def build_circuit() -> QuantumCircuit:

@@ -15,14 +15,14 @@ uv sync
 cp .env.example .env
 ```
 
-Set `IBM_QUANTUM_TOKEN` in `.env` only if you want to run examples on real IBM Quantum hardware.
+Set `IBM_QUANTUM_API_KEY` in `.env` only if you want to run examples on real IBM Quantum hardware.
 
 ## Examples
 
 | # | Example | Description | Backend | Run |
 |---|---------|-------------|---------|-----|
 | 01 | [First Qubit](examples/01-first-qubit/) | Single-qubit circuit with X and H gates | IBM Quantum hardware | `uv run examples/01-first-qubit/main.py` |
-| 02 | [BB84](examples/02-bb84/) | BB84 Quantum Key Distribution protocol | AerSimulator | `uv run examples/02-bb84/main.py` |
+| 02 | [BB84](examples/02-bb84/) | BB84 Quantum Key Distribution protocol | AerSimulator + IBM Quantum hardware | `uv run examples/02-bb84/main.py` |
 
 ## Adding a new example
 
